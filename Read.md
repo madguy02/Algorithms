@@ -6,3 +6,4 @@ All of sorting algorithm take the input in the following order:
 
 2.Data set
 
+random-number.cpp and time-it.cpp are two suppliment modules to aid in data generation and algorithm assessment.

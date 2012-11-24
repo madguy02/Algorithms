@@ -18,7 +18,7 @@ int main(int argc,char *argv[])
 	fp<<limit<<endl;
 	srand(time(0));
 	for(int i=0;i<limit;i++)
-		fp<<(rand()%limit+1)<<" ";
+		fp<<(rand()%limit)+1<<" ";
 	fp<<endl;
 	fp.close();
 	return 0;

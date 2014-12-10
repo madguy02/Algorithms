@@ -60,3 +60,25 @@ int main()
     cout<<"\nThey are not anagrams!";
     return 0;
 }
+//another little idea
+/*bool isanagram (char *str1,char *str2)
+{
+    int s1,s2=0;
+    int l1 = strlen(str1);
+    int l2 = strlen (str2);
+    if (l1 != l2 )
+    {
+        cout<<"they are not anagrams";
+        
+    }
+    for (i=0;i<l1;i++)
+    {
+        s1 += str1[i];
+        s2 += str2[i];
+        
+    }
+    if (s1 != s2)
+    return 0;
+    else return 1;
+    
+*/

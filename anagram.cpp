@@ -60,3 +60,29 @@ int main()
     cout<<"\nThey are not anagrams!";
     return 0;
 }
+
+// another way to solve this anagram problem
+
+bool areanagrams (char *str1 char* str2)
+int  count [NO_OF_CHARS] = {0};
+int i=0;
+for (i=0; str1[i] && str2[i];i++)
+{
+    count [str1[i]]++;
+    count [str2[i]]--;
+}
+if (str1[i] || str2[i])
+return false;
+
+for (i=0;i<NO_OF_CHARS ;i++)
+{
+    if (count[i])
+    return false;
+    return true;
+}
+// this is actually done in order to look into test cases where alphabets are repeated
+
+
+}
+
+
